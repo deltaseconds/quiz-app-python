@@ -1,4 +1,4 @@
-```markdown
+
 # Quiz Application 🎮
 
 A interactive quiz game built with Python and Tkinter. Test your knowledge, race against the clock, and compete for high scores!
