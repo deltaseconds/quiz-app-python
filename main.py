@@ -167,7 +167,7 @@ class QuizApp:
         self.window.withdraw()  # main window verstecken
         
         dialog = tk.Toplevel(self.window)
-        dialog.title("Spieleridentifikation")
+        dialog.title("Username eingeben")
         dialog.geometry("500x300")
         dialog.configure(bg="#1a1a1a")
         
@@ -177,7 +177,7 @@ class QuizApp:
         canvas.create_rectangle(0, 150, 500, 300, fill="#4CAF50", outline="")
         
         # Texte und username eingabefeld
-        tk.Label(dialog, text="NAMENSEINGABE", font=("Arial", 24, "bold"), 
+        tk.Label(dialog, text="Dein Name?", font=("Arial", 24, "bold"), 
                 bg="#1a1a1a", fg="white").place(relx=0.5, rely=0.3, anchor=tk.CENTER)
         self.username_entry = tk.Entry(dialog, font=("Arial", 18), 
                                      bg="#333333", fg="white")
