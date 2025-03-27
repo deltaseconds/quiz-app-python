@@ -2,7 +2,7 @@
 import json  # Für JSON (Fragen und Highscores)
 import random  # Zum randomisen der Fragen
 import tkinter as tk  # gui erstellung
-from tkinter import simpledialog, ttk, messagebox  # Dialoge und Widgets
+from tkinter import ttk, messagebox  # Dialoge und Widgets
 from datetime import datetime  # timestamp für highscores
 
 # Konstantendefinition für Dateinamen
