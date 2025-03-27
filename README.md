@@ -25,7 +25,7 @@ A interactive quiz game built with Python and Tkinter.
 
 3. **Run the app**:
    ```bash
-   python quiz.py
+   python main.py
    ```
 
 ## Usage 🚀
