@@ -1,505 +1,104 @@
 {
-    "questions": [
-      {
-        "question": "Which anime features the character 'Naruto Uzumaki'?",
-        "options": ["Bleach", "One Piece", "Naruto", "Fairy Tail"],
-        "answer": 2
-      },
-      {
-        "question": "Who is the main protagonist of 'Dragon Ball Z'?",
-        "options": ["Goku", "Vegeta", "Gohan", "Piccolo"],
-        "answer": 0
-      },
-      {
-        "question": "What is the name of the guild in 'Fairy Tail' led by Natsu?",
-        "options": ["Phantom Lord", "Grimoire Heart", "Fairy Tail", "Blue Pegasus"],
-        "answer": 2
-      },
-      {
-        "question": "In which anime does a character named 'Light Yagami' appear?",
-        "options": ["Death Note", "Code Geass", "Psycho-Pass", "Future Diary"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is set in a post-apocalyptic world where humans pilot giant robots called 'EVAs'?",
-        "options": ["Mobile Suit Gundam", "Neon Genesis Evangelion", "Code Geass", "Cowboy Bebop"],
-        "answer": 1
-      },
-      {
-        "question": "What is the name of the spirit detective in 'Yu Yu Hakusho'?",
-        "options": ["Yusuke Urameshi", "Kuwabara", "Kurama", "Hiei"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a bounty hunter named Spike Spiegel?",
-        "options": ["Cowboy Bebop", "Trigun", "Outlaw Star", "Samurai Champloo"],
-        "answer": 0
-      },
-      {
-        "question": "In which anime is the line 'It's over 9000!' famously exclaimed?",
-        "options": ["Dragon Ball Z", "Naruto", "One Piece", "Bleach"],
-        "answer": 0
-      },
-      {
-        "question": "Who is the creator of the anime 'One Piece'?",
-        "options": ["Eiichiro Oda", "Masashi Kishimoto", "Tite Kubo", "Hiro Mashima"],
-        "answer": 0
-      },
-      {
-        "question": "What is the name of the attack used by Goku in 'Dragon Ball Z'?",
-        "options": ["Kamehameha", "Final Flash", "Rasengan", "Getsuga Tensho"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a giant robot called Gundam?",
-        "options": ["Naruto", "Mobile Suit Gundam", "Bleach", "Inuyasha"],
-        "answer": 1
-      },
-      {
-        "question": "In 'Naruto', what is the name of Naruto's signature jutsu?",
-        "options": ["Chidori", "Rasengan", "Sharingan", "Bankai"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime is about pirates searching for the legendary treasure 'One Piece'?",
-        "options": ["One Piece", "Hunter x Hunter", "Black Clover", "D.Gray-man"],
-        "answer": 0
-      },
-      {
-        "question": "Who is the author of the manga 'Attack on Titan'?",
-        "options": ["Hajime Isayama", "Eiichiro Oda", "Tite Kubo", "Yuki Urushibara"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a death game involving high school students?",
-        "options": ["Danganronpa", "Mirai Nikki", "Btooom!", "Highschool of the Dead"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Bleach', what is the name of the sword wielded by Ichigo Kurosaki?",
-        "options": ["Zangetsu", "Tensa Zangetsu", "Bankai", "Kyoka Suigetsu"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a virtual reality MMORPG called 'Sword Art Online'?",
-        "options": ["Log Horizon", "Sword Art Online", "Overlord", "Accel World"],
-        "answer": 1
-      },
-      {
-        "question": "Who is the main character of 'My Hero Academia'?",
-        "options": ["Izuku Midoriya", "Katsuki Bakugo", "Shoto Todoroki", "All Might"],
-        "answer": 0
-      },
-      {
-        "question": "What is the quirk of the character Deku in 'My Hero Academia'?",
-        "options": ["One For All", "All For One", "Zero Gravity", "Explosive Sweat"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a reaper named Ichigo?",
-        "options": ["Bleach", "Naruto", "One Piece", "Death Note"],
-        "answer": 0
-      },
-      {
-        "question": "In 'One Punch Man', what is the name of the protagonist?",
-        "options": ["Saitama", "Genos", "King", "Mumen Rider"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is centered around the concept of alchemy and follows the Elric brothers?",
-        "options": ["Fullmetal Alchemist", "Naruto", "One Piece", "Bleach"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Fullmetal Alchemist: Brotherhood', what does the law of equivalent exchange state?",
-        "options": ["Give in return for gain", "Everything has a price", "Nothing is lost", "Equal value for equal value"],
-        "answer": 3
-      },
-      {
-        "question": "Which anime features a high school student becoming a god of death?",
-        "options": ["Soul Eater", "Blue Exorcist", "Death Note", "Noragami"],
-        "answer": 2
-      },
-      {
-        "question": "In 'Death Note', what is the name of the shinigami who drops the Death Note?",
-        "options": ["Ryuk", "Rem", "Sidoh", "Gelus"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime follows a young ninja with a demon fox sealed inside him?",
-        "options": ["Naruto", "Bleach", "Yu Yu Hakusho", "One Piece"],
-        "answer": 0
-      },
-      {
-        "question": "Who created the anime series 'Cowboy Bebop'?",
-        "options": ["Shinichirō Watanabe", "Hayao Miyazaki", "Makoto Shinkai", "Mamoru Hosoda"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Sword Art Online', what is the name of the game world where players are trapped?",
-        "options": ["Aincrad", "Alfheim Online", "Gun Gale Online", "Underworld"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features creatures called 'Digimon'?",
-        "options": ["Digimon Adventure", "Pokemon", "Yu-Gi-Oh!", "Beyblade"],
-        "answer": 0
-      },
-      {
-        "question": "Which long-running anime series is about ninjas on missions?",
-        "options": ["Naruto", "Bleach", "One Piece", "Dragon Ball Z"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Dragon Ball Z', who is Goku's best friend and rival?",
-        "options": ["Piccolo", "Vegeta", "Krillin", "Gohan"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features a detective named Conan Edogawa?",
-        "options": ["Case Closed", "Death Note", "Psycho-Pass", "Monster"],
-        "answer": 0
-      },
-      {
-        "question": "What is the name of the school for witches in 'Little Witch Academia'?",
-        "options": ["Luna Nova", "Moon Crest", "Magic Academy", "Star Witch School"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features giant humanoid robots called 'EVAs'?",
-        "options": ["Neon Genesis Evangelion", "Mobile Suit Gundam", "Macross", "Eureka Seven"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is set in the urban legends–filled district of Ikebukuro?",
-        "options": ["Durarara!!", "Baccano!", "Samurai Champloo", "Gintama"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Hunter x Hunter', what is the name of the exam that characters must pass?",
-        "options": ["Hunter Exam", "Nen Test", "Chimera Ant Challenge", "Zoldyck Trial"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a protagonist with a cursed sword named 'Zantetsuken'?",
-        "options": ["Rurouni Kenshin", "Samurai Champloo", "Basilisk", "Afro Samurai"],
-        "answer": 0
-      },
-      {
-        "question": "Who directed the anime film 'Spirited Away'?",
-        "options": ["Isao Takahata", "Hayao Miyazaki", "Makoto Shinkai", "Satoshi Kon"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features a war between humans and giant creatures called Titans?",
-        "options": ["Attack on Titan", "Neon Genesis Evangelion", "Fullmetal Alchemist", "Code Geass"],
-        "answer": 0
-      },
-      {
-        "question": "What is the name of the main character in 'Sailor Moon'?",
-        "options": ["Sailor Mars", "Sailor Venus", "Usagi Tsukino", "Sailor Jupiter"],
-        "answer": 2
-      },
-      {
-        "question": "In 'One Piece', what is the name of Luffy's pirate crew?",
-        "options": ["Blackbeard Pirates", "Straw Hat Pirates", "Red Hair Pirates", "Heart Pirates"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features a virtual world where reality and dreams blur in a film titled 'Paprika'?",
-        "options": ["Paprika", "Ghost in the Shell", "Akira", "Neon Genesis Evangelion"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a character named 'Luffy' who gains powers from eating a Devil Fruit?",
-        "options": ["One Piece", "Naruto", "Bleach", "Dragon Ball Z"],
-        "answer": 0
-      },
-      {
-        "question": "What is the name of the demon-slaying anime featuring Tanjiro and his quest?",
-        "options": ["Bleach", "Demon Slayer: Kimetsu no Yaiba", "Jujutsu Kaisen", "Blue Exorcist"],
-        "answer": 1
-      },
-      {
-        "question": "Who is the author of the manga 'One Piece'?",
-        "options": ["Eiichiro Oda", "Masashi Kishimoto", "Hiro Mashima", "Yoshihiro Togashi"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a main character reincarnated as a chef in a fantasy world?",
-        "options": ["Restaurant to Another World", "Isekai Izakaya", "Campfire Cooking in Another World", "Kakuriyo: Bed & Breakfast for Spirits"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Sword Art Online', what is the real name of the character known as Kirito?",
-        "options": ["Kazuto Kirigaya", "Kirigaya Kazuto", "Akihiko Kayaba", "Suguha Kirigaya"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime revolves around a high school girl who can see and interact with spirits?",
-        "options": ["Bleach", "Natsume's Book of Friends", "Yu Yu Hakusho", "Kyoukai no Kanata"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features an infant assassin in a series titled 'Reborn!'?",
-        "options": ["Reborn!", "Black Lagoon", "Trigun", "Cowboy Bebop"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Naruto', what is the name of the village Naruto is from?",
-        "options": ["Sunagakure", "Konohagakure", "Kirigakure", "Iwagakure"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime series features a character named 'Edward Elric'?",
-        "options": ["Fullmetal Alchemist", "Soul Eater", "Black Clover", "Hunter x Hunter"],
-        "answer": 0
-      },
-      {
-        "question": "Who directed the anime film 'Your Name'?",
-        "options": ["Makoto Shinkai", "Hayao Miyazaki", "Satoshi Kon", "Mamoru Hosoda"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a world where humans coexist with spirit creatures known as 'yokai'?",
-        "options": ["Natsume's Book of Friends", "Spirited Away", "Inuyasha", "Shaman King"],
-        "answer": 0
-      },
-      {
-        "question": "What is the main plot device in 'Death Note'?",
-        "options": ["Time travel", "Supernatural notebook", "Giant robots", "Virtual reality"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features the sport of Quidditch? (Trick question)",
-        "options": ["Harry Potter (not anime)", "Haikyuu!!", "Yuri on Ice", "None of the above"],
-        "answer": 3
-      },
-      {
-        "question": "In 'Attack on Titan', what are the giant creatures called?",
-        "options": ["Shifters", "Titans", "Giants", "Colossi"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features a character named 'Ichigo'?",
-        "options": ["Bleach", "Naruto", "One Piece", "Dragon Ball Z"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Fullmetal Alchemist', what is the forbidden act of human transmutation?",
-        "options": ["Alchemical conversion", "Resurrection of the dead", "Transmuting gold", "Creating homunculi"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime features reincarnation into a fantasy world?",
-        "options": ["Re:Zero", "Sword Art Online", "Overlord", "No Game No Life"],
-        "answer": 0
-      },
-      {
-        "question": "Who is the main character in 'Demon Slayer: Kimetsu no Yaiba'?",
-        "options": ["Tanjiro Kamado", "Zenitsu Agatsuma", "Inosuke Hashibira", "Giyu Tomioka"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is known for its vibrant and surreal art style and is directed by Satoshi Kon?",
-        "options": ["Perfect Blue", "Paprika", "Tokyo Godfathers", "Millennium Actress"],
-        "answer": 1
-      },
-      {
-        "question": "What is the name of the mech in the anime 'Gurren Lagann'?",
-        "options": ["Gurren Lagann", "Eureka Seven", "Code Geass", "Full Metal Panic!"],
-        "answer": 0
-      },
-      {
-        "question": "In 'One Piece', who serves as the doctor of the Straw Hat Pirates?",
-        "options": ["Sanji", "Usopp", "Tony Tony Chopper", "Brook"],
-        "answer": 2
-      },
-      {
-        "question": "Which anime features the ninja technique 'Chidori'?",
-        "options": ["Naruto", "Bleach", "Dragon Ball Z", "One Piece"],
-        "answer": 0
-      },
-      {
-        "question": "In 'My Hero Academia', who is considered the symbol of peace and justice?",
-        "options": ["Deku", "All Might", "Endeavor", "Shoto Todoroki"],
-        "answer": 1
-      },
-      {
-        "question": "Which anime film features a young girl who befriends a gentle forest spirit?",
-        "options": ["My Neighbor Totoro", "Spirited Away", "Princess Mononoke", "Howl's Moving Castle"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is renowned for its art direction by Studio Ghibli?",
-        "options": ["Spirited Away", "Ghost in the Shell", "Akira", "One Piece"],
-        "answer": 0
-      },
-      {
-        "question": "What is the name of the gentleman cat in 'The Cat Returns'?",
-        "options": ["Baron Humbert", "Muta", "Tama", "Luna"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features the concept of 'Nen' as a power system?",
-        "options": ["Hunter x Hunter", "Naruto", "One Piece", "Bleach"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Naruto', what is the signature technique of Sasuke Uchiha?",
-        "options": ["Chidori", "Amaterasu", "Rasengan", "Fire Style Jutsu"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime series features the infamous 'Phantom Troupe'?",
-        "options": ["Hunter x Hunter", "Fullmetal Alchemist", "Naruto", "One Piece"],
-        "answer": 0
-      },
-      {
-        "question": "Who directed the cyberpunk anime film 'Akira'?",
-        "options": ["Katsuhiro Otomo", "Mamoru Oshii", "Hayao Miyazaki", "Satoshi Kon"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a virtual reality game where players’ lives are at stake?",
-        "options": ["Sword Art Online", "Log Horizon", "Accel World", "Overlord"],
-        "answer": 0
-      },
-      {
-        "question": "In 'One Piece', what is Monkey D. Luffy's ultimate goal?",
-        "options": ["Become the Pirate King", "Find All Blue", "Become a Navy Admiral", "Discover the Grand Line"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime centers on a futuristic cooking competition?",
-        "options": ["Food Wars!", "Cooking Papa", "Isekai Izakaya", "Babel 2"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime follows a high school student surviving a mysterious incident while battling supernatural forces?",
-        "options": ["Another", "Mirai Nikki", "Future Diary", "Gantz"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Naruto', who is the legendary ninja that mentors Naruto?",
-        "options": ["Jiraiya", "Kakashi", "Itachi", "Minato"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features dimension-hopping and time travel in its narrative?",
-        "options": ["Steins;Gate", "Re:Zero", "Sword Art Online", "The Melancholy of Haruhi Suzumiya"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a survival game where players battle on a deserted island?",
-        "options": ["Btooom!", "Gantz", "Danganronpa", "Future Diary"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a protagonist who can predict the future using a mysterious diary?",
-        "options": ["Death Note", "Future Diary", "Code Geass", "Paranoia Agent"],
-        "answer": 1
-      },
-      {
-        "question": "Who is the Japanese voice actor for Goku in 'Dragon Ball'?",
-        "options": ["Masako Nozawa", "Megumi Hayashibara", "Maaya Sakamoto", "Rie Kugimiya"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features the troubled mecha pilot Shinji Ikari?",
-        "options": ["Neon Genesis Evangelion", "Mobile Suit Gundam", "Code Geass", "Gurren Lagann"],
-        "answer": 0
-      },
-      {
-        "question": "What is the primary setting of 'Sword Art Online'?",
-        "options": ["Virtual reality game world", "Outer space", "Post-apocalyptic Earth", "A fantasy kingdom"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is famous for the line, 'I will take a potato chip... and eat it!'?",
-        "options": ["Death Note", "Naruto", "One Piece", "Attack on Titan"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a protagonist who transforms into a Titan?",
-        "options": ["Attack on Titan", "Tokyo Ghoul", "Parasyte", "Berserk"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Hunter x Hunter', what is the special ability that characters develop to sense energy called?",
-        "options": ["Nen", "Chakra", "Stands", "Devil Fruits"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features intense baseball matches?",
-        "options": ["Major", "Ace of Diamond", "H2", "Big Windup!"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is known for introducing the concept of 'Bankai'?",
-        "options": ["Bleach", "Naruto", "One Piece", "Dragon Ball Z"],
-        "answer": 0
-      },
-      {
-        "question": "In 'My Hero Academia', what term is used to describe superpowers?",
-        "options": ["Quirks", "Stands", "Nen", "Devil Fruits"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a protagonist who transforms into a half-ghoul after a tragic incident?",
-        "options": ["Tokyo Ghoul", "Parasyte", "Devilman Crybaby", "Elfen Lied"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime produced by Studio Trigger features epic mecha battles?",
-        "options": ["Gurren Lagann", "Neon Genesis Evangelion", "Code Geass", "Mobile Suit Gundam"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features the notorious gunslinger Vash the Stampede?",
-        "options": ["Trigun", "Cowboy Bebop", "Outlaw Star", "Samurai Champloo"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Naruto', what clan does Sasuke belong to?",
-        "options": ["Uchiha", "Hyuga", "Nara", "Akimichi"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime film by Mamoru Hosoda features a boy and his wolf-like guardian?",
-        "options": ["The Boy and the Beast", "Summer Wars", "Wolf Children", "The Girl Who Leapt Through Time"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime series is set in a school for magic?",
-        "options": ["Little Witch Academia", "Mahouka Koukou no Rettousei", "Fate/stay night", "The Irregular at Magic High School"],
-        "answer": 0
-      },
-      {
-        "question": "In 'Demon Slayer: Kimetsu no Yaiba', which breathing technique does Tanjiro primarily use?",
-        "options": ["Water Breathing", "Flame Breathing", "Thunder Breathing", "Wind Breathing"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime follows a high school boy who becomes a legendary chef in another world?",
-        "options": ["Restaurant to Another World", "Isekai Izakaya", "Ben-To", "Cooking Master Boy"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime features a mysterious organization known as 'The Homunculi'?",
-        "options": ["Fullmetal Alchemist", "Naruto", "Bleach", "One Piece"],
-        "answer": 0
-      },
-      {
-        "question": "Who is the director of 'Ghost in the Shell'?",
-        "options": ["Mamoru Oshii", "Satoshi Kon", "Hayao Miyazaki", "Makoto Shinkai"],
-        "answer": 0
-      },
-      {
-        "question": "Which anime is famous for its intricate mystery-solving plots featuring a genius detective?",
-        "options": ["Detective Conan", "Death Note", "Monster", "Psycho-Pass"],
-        "answer": 0
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "question": "Which anime features the character 'Naruto Uzumaki'?",
+      "options": [
+        "Bleach",
+        "One Piece",
+        "Naruto",
+        "Fairy Tail"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who is the main protagonist of 'Dragon Ball Z'?",
+      "options": [
+        "Goku",
+        "Vegeta",
+        "Gohan",
+        "Piccolo"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which anime does a character named 'Light Yagami' appear?",
+      "options": [
+        "Death Note",
+        "Code Geass",
+        "Psycho-Pass",
+        "Future Diary"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which anime is set in a post-apocalyptic world where humans pilot giant robots called 'EVAs'?",
+      "options": [
+        "Mobile Suit Gundam",
+        "Neon Genesis Evangelion",
+        "Code Geass",
+        "Cowboy Bebop"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the attack used by Goku in 'Dragon Ball Z'?",
+      "options": [
+        "Kamehameha",
+        "Final Flash",
+        "Rasengan",
+        "Getsuga Tensho"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is the main character in 'Demon Slayer: Kimetsu no Yaiba'?",
+      "options": [
+        "Tanjiro Kamado",
+        "Zenitsu Agatsuma",
+        "Inosuke Hashibira",
+        "Giyu Tomioka"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Attack on Titan', what are the giant creatures called?",
+      "options": [
+        "Shifters",
+        "Titans",
+        "Giants",
+        "Colossi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which anime features a virtual reality MMORPG called 'Sword Art Online'?",
+      "options": [
+        "Log Horizon",
+        "Sword Art Online",
+        "Overlord",
+        "Accel World"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who directed the anime film 'Your Name'?",
+      "options": [
+        "Makoto Shinkai",
+        "Hayao Miyazaki",
+        "Satoshi Kon",
+        "Mamoru Hosoda"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'My Hero Academia', what term is used to describe superpowers?",
+      "options": [
+        "Quirks",
+        "Stands",
+        "Nen",
+        "Devil Fruits"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -4,10 +4,13 @@ import random  # Zum randomisen der Fragen
 import tkinter as tk  # gui erstellung
 from tkinter import ttk, messagebox  # Dialoge und Widgets
 from datetime import datetime  # timestamp für highscores
+import os
 
 # Konstantendefinition für Dateinamen
 HIGHSCORES_FILE = "highscores.json"  # Datei zur Speicherung der highscores
-QUESTIONS_FILE = "questions.json"  # Datei mit den Quizfragen
+# __file__ fuer das Skriptverzeichnis
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+QUESTIONS_FILE = os.path.join(SCRIPT_DIR, "questions.json")  # Datei mit den Quizfragen
 
 # main class für die Quiz app
 class QuizApp:
@@ -158,8 +161,66 @@ class QuizApp:
                 self.questions = data["questions"]
                 random.shuffle(self.questions)  # Zufällige Reihenfolge der fragen
                 self.remaining_questions = self.questions.copy()
-        except Exception as e:
-            messagebox.showerror("Fehler", f"Fragen konnten nicht geladen werden: {str(e)}")
+        except (FileNotFoundError, json.JSONDecodeError):
+            # Default anime quiz questions when file doesn't exist
+            anime_quiz = [
+                {
+                    "question": "Which anime features the character 'Naruto Uzumaki'?",
+                    "options": ["Bleach", "One Piece", "Naruto", "Fairy Tail"],
+                    "answer": 2
+                },
+                {
+                    "question": "Who is the main protagonist of 'Dragon Ball Z'?",
+                    "options": ["Goku", "Vegeta", "Gohan", "Piccolo"],
+                    "answer": 0
+                },
+                {
+                    "question": "In which anime does a character named 'Light Yagami' appear?",
+                    "options": ["Death Note", "Code Geass", "Psycho-Pass", "Future Diary"],
+                    "answer": 0
+                },
+                {
+                    "question": "Which anime is set in a post-apocalyptic world where humans pilot giant robots called 'EVAs'?",
+                    "options": ["Mobile Suit Gundam", "Neon Genesis Evangelion", "Code Geass", "Cowboy Bebop"],
+                    "answer": 1
+                },
+                {
+                    "question": "What is the name of the attack used by Goku in 'Dragon Ball Z'?",
+                    "options": ["Kamehameha", "Final Flash", "Rasengan", "Getsuga Tensho"],
+                    "answer": 0
+                },
+                {
+                    "question": "Who is the main character in 'Demon Slayer: Kimetsu no Yaiba'?",
+                    "options": ["Tanjiro Kamado", "Zenitsu Agatsuma", "Inosuke Hashibira", "Giyu Tomioka"],
+                    "answer": 0
+                },
+                {
+                    "question": "In 'Attack on Titan', what are the giant creatures called?",
+                    "options": ["Shifters", "Titans", "Giants", "Colossi"],
+                    "answer": 1
+                },
+                {
+                    "question": "Which anime features a virtual reality MMORPG called 'Sword Art Online'?",
+                    "options": ["Log Horizon", "Sword Art Online", "Overlord", "Accel World"],
+                    "answer": 1
+                },
+                {
+                    "question": "Who directed the anime film 'Your Name'?",
+                    "options": ["Makoto Shinkai", "Hayao Miyazaki", "Satoshi Kon", "Mamoru Hosoda"],
+                    "answer": 0
+                },
+                {
+                    "question": "In 'My Hero Academia', what term is used to describe superpowers?",
+                    "options": ["Quirks", "Stands", "Nen", "Devil Fruits"],
+                    "answer": 0
+                }
+            ]
+            # Create new questions file with default questions
+            with open(QUESTIONS_FILE, "w", encoding="utf-8") as file:
+                json.dump({"questions": anime_quiz}, file, indent=2)
+            self.questions = anime_quiz
+            random.shuffle(self.questions)
+            self.remaining_questions = self.questions.copy()
             self.window.destroy()
 
     def get_username(self):
